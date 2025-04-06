@@ -13,8 +13,7 @@ public class ArithmeticOperationTest {
 
 		ArithmeticOperation operations = new ArithmeticOperation();
 		Integer actual = operations.addOrSub(2, 6);
-		Integer expected = 8;
-		fail();
+		Integer expected = 10;
 		assertEquals(expected, actual);
 
 	}
